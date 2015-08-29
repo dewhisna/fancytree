@@ -7,8 +7,8 @@
  * Released under the MIT license
  * https://github.com/mar10/fancytree/wiki/LicenseInfo
  *
- * @version 2.11.0
- * @date 2015-07-26T10:22
+ * @version @VERSION
+ * @date 2015-08-29T00:48
  */
 
 /** Core Fancytree module.
@@ -4079,7 +4079,7 @@ $.extend($.ui.fancytree,
 	/** @lends Fancytree_Static# */
 	{
 	/** @type {string} */
-	version: "2.11.0",      // Set to semver by 'grunt release'
+	version: "@VERSION",      // Set to semver by 'grunt release'
 	/** @type {string} */
 	buildType: "production", // Set to 'production' by 'grunt build'
 	/** @type {int} */
@@ -4441,8 +4441,8 @@ $.extend($.ui.fancytree,
  * Released under the MIT license
  * https://github.com/mar10/fancytree/wiki/LicenseInfo
  *
- * @version 2.11.0
- * @date 2015-07-26T10:22
+ * @version @VERSION
+ * @date 2015-08-29T00:48
  */
 
 // To keep the global namespace clean, we wrap everything in a closure
@@ -4617,8 +4617,8 @@ $.ui.fancytree.registerExtension({
  * Released under the MIT license
  * https://github.com/mar10/fancytree/wiki/LicenseInfo
  *
- * @version 2.11.0
- * @date 2015-07-26T10:22
+ * @version @VERSION
+ * @date 2015-08-29T00:48
  */
 
 ;(function($, window, document, undefined) {
@@ -5069,8 +5069,8 @@ $.ui.fancytree.registerExtension({
  * Released under the MIT license
  * https://github.com/mar10/fancytree/wiki/LicenseInfo
  *
- * @version 2.11.0
- * @date 2015-07-26T10:22
+ * @version @VERSION
+ * @date 2015-08-29T00:48
  */
 
 ;(function($, window, document, undefined) {
@@ -5640,8 +5640,8 @@ $.ui.fancytree.registerExtension({
  * Released under the MIT license
  * https://github.com/mar10/fancytree/wiki/LicenseInfo
  *
- * @version 2.11.0
- * @date 2015-07-26T10:22
+ * @version @VERSION
+ * @date 2015-08-29T00:48
  */
 
 ;(function($, window, document, undefined) {
@@ -5949,8 +5949,8 @@ $.ui.fancytree.registerExtension({
  * Released under the MIT license
  * https://github.com/mar10/fancytree/wiki/LicenseInfo
  *
- * @version 2.11.0
- * @date 2015-07-26T10:22
+ * @version @VERSION
+ * @date 2015-08-29T00:48
  */
 
 ;(function($, window, document, undefined) {
@@ -6162,8 +6162,8 @@ $.ui.fancytree.registerExtension({
  * Released under the MIT license
  * https://github.com/mar10/fancytree/wiki/LicenseInfo
  *
- * @version 2.11.0
- * @date 2015-07-26T10:22
+ * @version @VERSION
+ * @date 2015-08-29T00:48
  */
 
 ;(function($, window, document, undefined) {
@@ -6302,8 +6302,8 @@ $.ui.fancytree.registerExtension({
  * Released under the MIT license
  * https://github.com/mar10/fancytree/wiki/LicenseInfo
  *
- * @version 2.11.0
- * @date 2015-07-26T10:22
+ * @version @VERSION
+ * @date 2015-08-29T00:48
  */
 
 ;(function($, window, document, undefined) {
@@ -6504,8 +6504,8 @@ $.ui.fancytree.registerExtension({
  * Released under the MIT license
  * https://github.com/mar10/fancytree/wiki/LicenseInfo
  *
- * @version 2.11.0
- * @date 2015-07-26T10:22
+ * @version @VERSION
+ * @date 2015-08-29T00:48
  */
 
 ;(function($, window, document, undefined) {
@@ -6879,8 +6879,8 @@ $.ui.fancytree.registerExtension({
  * Released under the MIT license
  * https://github.com/mar10/fancytree/wiki/LicenseInfo
  *
- * @version 2.11.0
- * @date 2015-07-26T10:22
+ * @version @VERSION
+ * @date 2015-08-29T00:48
  */
 
 ;(function($, window, document, undefined) {
@@ -7245,8 +7245,8 @@ $.ui.fancytree.registerExtension({
  * Released under the MIT license
  * https://github.com/mar10/fancytree/wiki/LicenseInfo
  *
- * @version 2.11.0
- * @date 2015-07-26T10:22
+ * @version @VERSION
+ * @date 2015-08-29T00:48
  */
 
 ;(function($, window, document, undefined) {
@@ -7306,7 +7306,7 @@ $.ui.fancytree.registerExtension({
 */
 		$el.toggleClass("ui-state-active", node.isActive());
 		$el.toggleClass("ui-state-focus", node.hasFocus());
-		$el.toggleClass("ui-state-highlight", node.isSelected());
+//		$el.toggleClass("ui-state-highlight", node.isSelected());
 	}
 });
 }(jQuery, window, document));
@@ -7321,8 +7321,8 @@ $.ui.fancytree.registerExtension({
  * Released under the MIT license
  * https://github.com/mar10/fancytree/wiki/LicenseInfo
  *
- * @version 2.11.0
- * @date 2015-07-26T10:22
+ * @version @VERSION
+ * @date 2015-08-29T00:48
  */
 
 ;(function($, window, document, undefined) {

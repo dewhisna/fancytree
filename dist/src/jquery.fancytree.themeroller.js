@@ -11,8 +11,8 @@
  * Released under the MIT license
  * https://github.com/mar10/fancytree/wiki/LicenseInfo
  *
- * @version 2.11.0
- * @date 2015-07-26T10:22
+ * @version @VERSION
+ * @date 2015-08-29T00:48
  */
 
 ;(function($, window, document, undefined) {
@@ -72,7 +72,7 @@ $.ui.fancytree.registerExtension({
 */
 		$el.toggleClass("ui-state-active", node.isActive());
 		$el.toggleClass("ui-state-focus", node.hasFocus());
-		$el.toggleClass("ui-state-highlight", node.isSelected());
+//		$el.toggleClass("ui-state-highlight", node.isSelected());
 	}
 });
 }(jQuery, window, document));
