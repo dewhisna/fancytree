@@ -72,7 +72,7 @@ $.ui.fancytree.registerExtension({
 */
 		$el.toggleClass("ui-state-active", node.isActive());
 		$el.toggleClass("ui-state-focus", node.hasFocus());
-		$el.toggleClass("ui-state-highlight", node.isSelected());
+//		$el.toggleClass("ui-state-highlight", node.isSelected());
 	}
 });
 }(jQuery, window, document));
